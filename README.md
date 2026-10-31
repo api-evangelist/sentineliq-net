@@ -64,5 +64,114 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-sentineliq-net is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://sentineliq.net/
+Sentinel (sentineliq.net) provides Washington state real‑estate data via a RESTful API and MCP interface. It offers property records, permit changes, and seller‑math calculations for developers to integrate into AI assistants or software. The service includes example workflows, a developer console, and detailed terms, privacy, and pricing information. It targets real‑estate professionals, developers, and AI applications needing verified property evidence.
+
+**Areas:** Company · Real Estate · Data API · Washington · AI Integration
+
+## sentineliq-net on APIs.io
+
+Everything profiled for sentineliq-net is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/sentineliq-net/](https://apis.io/providers/sentineliq-net/)** — or go straight to one of the APIs or properties below.
+
+### APIs (6)
+
+- [SENTINEL Property Research API](https://apis.io/apis/sentineliq-net/sentinel-property-research-api/) — Per-address computed research for Washington state real‑estate data via RESTful endpoints.
+- [sentineliq-net Agent API](https://apis.io/apis/sentineliq-net/sentineliq-net-agent-api-api/) — The agent-api API from sentineliq-net — 12 operation(s) for agent-api.
+- [sentineliq-net MCP API](https://apis.io/apis/sentineliq-net/sentineliq-net-mcp-api/) — The mcp API from sentineliq-net — 2 operation(s) for mcp.
+- [sentineliq-net Property Research API](https://apis.io/apis/sentineliq-net/sentineliq-net-property-research-api/) — The property-research API from sentineliq-net — 2 operation(s) for property-research.
+- [sentineliq-net Public API](https://apis.io/apis/sentineliq-net/sentineliq-net-public-api/) — The public API from sentineliq-net — 3 operation(s) for public.
+- [sentineliq-net Seller Workflows API](https://apis.io/apis/sentineliq-net/sentineliq-net-seller-workflows-api/) — The seller-workflows API from sentineliq-net — 4 operation(s) for seller-workflows.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Sentineliq Net Agentic Access](https://apis.io/agentic-access/sentineliq-net/sentineliq-net-agentic-access/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Sentineliq Net Context](https://apis.io/jsonld/sentineliq-net/sentineliq-net-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [sentineliq-net API Rules](https://apis.io/rules/sentineliq-net/sentineliq-net-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Sentineliq Net Authentication](https://apis.io/security/sentineliq-net/sentineliq-net-authentication/)
+- [Sentineliq Net Domain Security](https://apis.io/security/sentineliq-net/sentineliq-net-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://sentineliq.net/)
+- [Documentation](https://sentineliq.net/developers)
+- [Getting started](https://sentineliq.net/developers/start)
+- [API reference](https://app.sentineliq.net/api/v1/agent-api/openapi.json)
+- [Terms of service](https://sentineliq.net/terms)
+- [Privacy policy](https://sentineliq.net/privacy)
+
+## API Evangelist rating
+
+**Kin Score 42.8** — developing · rubric 0.25.0 · scored 2026-10-31
+
+| Facet | Score |
+|---|---|
+| Discoverability | 61.7 |
+| Contract quality | 53.5 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 40.5 |
+| Access clarity | 21.1 |
+
+**Agent readiness 52.3** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/sentineliq-net/](https://apis.io/providers/sentineliq-net/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for sentineliq-net: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/sentineliq-net/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
